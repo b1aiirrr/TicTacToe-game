@@ -12,9 +12,6 @@ public abstract class Player{
 			if(TicTacToe.board[row][col] == ' '){
 				return true;
 			}
-			else {
-				System.out.println("Position already taken!");
-			}
 		}
 		return false;
 	}
